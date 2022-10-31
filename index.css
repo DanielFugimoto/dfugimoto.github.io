@@ -1,6 +1,5 @@
 body {
-    color: white;
-    background-color: black;
+    background: -webkit-radial-gradient(circle, #b4dbeb 0, #172b5e 100%);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -15,7 +14,7 @@ ul {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -23,7 +22,7 @@ header img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: 5px solid greenyellow;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .center{
@@ -31,7 +30,12 @@ header img {
 }
 
 h1 {
-    color: greenyellow;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMr8XoBipZ4IVaim--o1BvzaZTzOyk5IUznA&usqp=CAU);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
 }
 
 footer img {
@@ -64,3 +68,4 @@ footer p {
 nav a:hover{
     color: greenyellow;
 }
+
