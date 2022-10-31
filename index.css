@@ -4,7 +4,6 @@ body {
     text-align: center;
 }
 
-
 ul {
     display: flex;
     justify-content: space-between;
@@ -68,4 +67,3 @@ footer p {
 nav a:hover{
     color: greenyellow;
 }
-
